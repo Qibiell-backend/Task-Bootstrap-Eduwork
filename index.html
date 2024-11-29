@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        #jumbotron {
+            text-shadow: #000 1px 1px;
+        }
+
+        #jumbotron h1 {
+            color: #ffffff;
+        }
+
+        #jumbotron h3 {
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        .background-jumbotron {
+            background-image: url(img/bg.jpg);
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            box-shadow: inset 0 0 0 2000px rgba(0, 47, 255, 0.5);
+        }
+
+        .btn-primary {
+            background-color: #1b132a;
+        }
+
+        .bg-blue {
+            color: lightskyblue;
+        }
+
+        p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar Menu -->
+    <section id="Navbar">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/eduwork.png" alt="jieqibill.com" width="150px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Keluar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign in</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-primary" type="button">Register</button>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+    </section>
+
+    <!-- Jumbotron Image -->
+    <section id="jumbotron" class="jumbotron-fluid background-jumbotron">
+        <div class="container-fluid py-5 text-center">
+            <p class="p-5"></p>
+            <h1 class="display-5 fw-bold">Raih profesi idamanmu, kami bantu <br> sampai diterima kerja</h1>
+            <h3 class="p-3">Tanpa biaya pendaftaran!</h3>
+            <button class="btn btn-primary btn-lg fw-bold m-2" type="button">DAFTAR SEKARANG</button>
+        </div>
+    </section>
+
+    <!-- Bagian keunggulan -->
+    <section>
+            <div class="col-12 p-4"></div>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <span class="fa-stack fa-2x">
+                            <i class="fas fa-circle fa-stack-2x bg-blue"></i>
+                            <i class="fas fa-solid fa-computer fa-stack-1x text-white"></i>
+                        </span>
+                        <h3>Apa sih eduwork itu?</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit molestias, sunt odio facilis nesciunt debitis recusandae sequi, cum necessitatibus, possimus voluptates! Similique debitis et dolor adipisci culpa molestiae placeat maxime?</p>
+                    </div>
+
+                    <div class="col">
+                        <span class="fa-stack fa-2x">
+                            <i class="fas fa-circle fa-stack-2x bg-blue"></i>
+                            <i class="fas fa-solid fa-computer fa-stack-1x text-white"></i>
+                        </span>
+                        <h3>Program ISA</h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, veniam odit! Doloremque aperiam animi hic tempora, ipsam repudiandae earum iste repellat nobis cum. Labore praesentium doloremque quia tempora facilis quaerat.</p>
+                    </div>
+
+                    <div class="col">
+                        <span class="fa-stack fa-2x">
+                            <i class="fas fa-circle fa-stack-2x bg-blue"></i>
+                            <i class="fas fa-solid fa-user fa-stack-1x text-white"></i>
+                        </span>
+                        <h3>Berbagai mentor</h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eveniet sit nihil sint quam dolor earum recusandae autem repellendus doloremque, repudiandae cum voluptatibus saepe iure laborum, quia vero impedit consequatur?</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section>
+            <div class="col-12 p-3"></div>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <span class="fa-stack fa-2x">
+                            <i class="fas fa-circle fa-stack-2x bg-blue"></i>
+                            <i class="fas fa-solid fa-gears fa-stack-1x text-white"></i>
+                        </span>
+                        <h3>Penyaluran kerja</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit molestias, sunt odio facilis nesciunt debitis recusandae sequi, cum necessitatibus, possimus voluptates! Similique debitis et dolor adipisci culpa molestiae placeat maxime?</p>
+                    </div>
+
+                    <div class="col">
+                        <span class="fa-stack fa-2x">
+                            <i class="fas fa-circle fa-stack-2x bg-blue"></i>
+                            <i class="fas fa-solid fa-user fa-stack-1x text-white"></i>
+                        </span>
+                        <h3>Ilmu praktis</h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, veniam odit! Doloremque aperiam animi hic tempora, ipsam repudiandae earum iste repellat nobis cum. Labore praesentium doloremque quia tempora facilis quaerat.</p>
+                    </div>
+
+                    <div class="col">
+                        <span class="fa-stack fa-2x">
+                            <i class="fas fa-circle fa-stack-2x bg-blue"></i>
+                            <i class="fas fa-solid fa-computer fa-stack-1x text-white"></i>
+                        </span>
+                        <h3>flexible intensif</h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eveniet sit nihil sint quam dolor earum recusandae autem repellendus doloremque, repudiandae cum voluptatibus saepe iure laborum, quia vero impedit consequatur?</p>
+                    </div>
+                    </div>
+                </div>
+    </section>
+</body>
+</html>
